@@ -15,12 +15,6 @@ public class BasePage {
 	}
 	
 	
-	@BeforeClass(alwaysRun=true)
-    public void setUp() {
-		
-		driver().get("https://www.dev.123loadboard.com/");
-		driver().manage().window().maximize();
-	}
 	
 	
 	/*WebDriver driver;

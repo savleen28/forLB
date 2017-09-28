@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeTest;
 public class BaseTest {
 	
 	
-	public static WebDriver driver =new ChromeDriver();        
+	public static WebDriver driver /*=new ChromeDriver()*/;        
 	
 	
 	
@@ -21,13 +21,13 @@ public class BaseTest {
 	}
 	
 	
-	/*@BeforeClass(alwaysRun=true)
+	@BeforeClass(alwaysRun=true)
     public void setUp() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\SavleenB\\Softwares\\chromedriver_win32\\chromedriver.exe");
 		driver =new ChromeDriver();
 		driver.get("https://www.dev.123loadboard.com/");
 		driver.manage().window().maximize();
-	}*/
+	}
 	
 	/*@BeforeClass
 	public void openWebSite() {
