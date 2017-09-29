@@ -25,8 +25,8 @@ import base.BaseTest;
 public class SignInUpTest extends BaseTest{
 	@Title("TST-1")
 	@Test(testName = "TST-1", description = "Sign In screen (Functional), 'Signing In in 123Loadboard.'")
-	/*public void signInScreenFunctional()*/ public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\SavleenB\\Softwares\\chromedriver_win32\\chromedriver.exe");
+	public void signInScreenFunctional() /*public static void main(String[] args)*/ throws InterruptedException {
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\SavleenB\\Softwares\\chromedriver_win32\\chromedriver.exe");
 		//WebDriver driver = new HtmlUnitDriver();
 		//WebDriver driver = new ChromeDriver();
 		/*driver.get("https://www.dev.123loadboard.com/");
